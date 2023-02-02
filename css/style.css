@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.form {
+    padding: 20px;
+    /* border: 1px solid #000; */
+}
+.inp{
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    border: none;
+    border-bottom: 1px solid red;
+    padding: 0 8px;
+    font-size: 18px;
+    color: brown;
+}
+.inp:focus{
+    outline: none;
+}
+.card__list {
+    list-style-type: none;
+}
+.card_item {
+    width: 100%;
+    padding: 25px;
+    box-shadow: 1px 1px 10px grey;
+    border-radius: 7px;
+    overflow: hidden;
+    text-align: center;
+    margin: 20px auto;
+}
+.card_item h3 {
+    color: brown;
+}
